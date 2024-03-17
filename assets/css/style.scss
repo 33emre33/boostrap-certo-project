@@ -141,3 +141,20 @@ background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
     line-height: 140%;
  }
 }
+
+
+@media (min-width:768px) {
+    .slider-section-heading{
+      width: 50%;
+    }
+}
+
+
+.slider-section-bottom-icons-wrapper{
+    .icon-wrapper{
+        img{
+            width: 90px;
+    
+        }
+    }
+}
