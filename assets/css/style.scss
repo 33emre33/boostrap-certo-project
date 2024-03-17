@@ -97,3 +97,47 @@
     }
     
 }
+
+.header-banner-btn-end{
+    transition: all 0.5s;
+    &:hover{
+        border-color: #02033b00 !important;
+        background-color: #ffad0a;
+    }
+}
+
+
+
+.slider-section{
+
+background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+
+.star-ico{
+    background: url('../img/slider-section/star-normal.svg');
+    filter: grayscale(100%);
+    height: 20.5px;
+    width: 19.5px;
+
+   
+
+}
+.star-ico-active{
+    background: url('../img/slider-section/star-normal.svg');
+    height: 20.5px;
+    width: 19.5px;
+
+   
+
+}
+
+}
+
+.slider-card-wrapper{
+    max-width: 400px;
+ height: 300px;
+ .slider-card-content{
+    max-height: 130px;
+    overflow-y: hidden;
+    line-height: 140%;
+ }
+}
