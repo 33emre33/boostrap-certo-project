@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.header-menu-color{
+    
+    color: #02033B !important;
+}
+
+.header-signin-btn-bg{
+    background-color: #4335DE;
+}
+.header-bg-color{
+    background-color: #F3F8FF;
+}
+
+.header-sign-btn{
+    transition: all 0.5s;
+    &:hover{
+        background-color: #2d2583;
+    }
+}
+.custom-link-hover {
+    transition: all 0.5s;
+    &:hover{
+        color: #373880 !important;
+    }
+}
+
+.header-banner-heading{
+    font-weight: 800 !important;
+}
+
+.banner-btn-FFC247-color{
+    background-color: #FFC247;
+   
+}
+.end-img-wrapper{
+    top:10%;
+    .borderr{
+        border-top:20px #4335DE solid;
+        border-left:20px #4335DE solid;
+        
+    }
+    .banner-phone-img{
+        left: 5%;
+        top: 5%;
+    }
+}
+
+.header-banner-all-wrapper {
+    .header-banner-btn-start{
+        transition: all 0.5s;
+        overflow: hidden;
+        .ico-arrow{
+            transform: scale(1.5);
+        }
+        &:hover{
+            background-color: #ffad0a;
+        
+            .ico-arrow{
+                
+                position: relative;
+                transition: all 0.5s;
+                animation: ico 2s ease forwards;
+                @keyframes ico {
+                   1%{
+                    right: 1px;
+                    opacity: 1;
+                   }
+                   100%{
+                    right: -80px;
+                    opacity: 0;
+                   }
+                    
+                }
+            }
+        }
+    }
+}
+
+.end-img-wrapper {
+   width: 40%;
+   z-index: -1;
+   
+}
+.header-banner-back-item{
+    z-index: -5;
+}
+@media (max-width:768px) {
+    .end-img-wrapper {
+        opacity: 0.3;
+        width: 60%;
+    }
+    
+}
