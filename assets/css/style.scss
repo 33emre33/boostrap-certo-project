@@ -158,3 +158,27 @@ background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
         }
     }
 }
+
+.slider-bottom-section-end-img{
+    position: relative;
+
+    &::after{
+        content: "";
+        width: 78%;
+        height:105%;
+        background-color: #FFC247;
+        position: absolute;
+       top:-8px;
+       left: 5px;
+        z-index: -1;
+    }
+}
+
+
+.freedom-section-bg{
+
+
+background: linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%);
+
+
+}
