@@ -5,23 +5,10 @@
 .footer-eroglu-text{
     font-family: "Caveat", cursive;
     letter-spacing: 5px;
-    background-color: red;
    border-radius: 50%;
-   position: relative;
-   z-index: 5;
+ 
 
-   &::after{
-     content: "";
-     width: 120%;
-     height: 120%;
-     background-color: yellow;
-     border-radius: 50%;
-     position: absolute;
-     top: 0 ;
-     left: 0;
-     z-index: 1;
-  
-   }
+
   
 
 }
